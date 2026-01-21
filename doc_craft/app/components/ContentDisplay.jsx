@@ -9,7 +9,7 @@ export default async function ContentDisplay({ id }) {
       <h1>{documentContent.data.title}</h1>
       <div>
         <span>Published On: {documentContent.data.date}</span> by{" "}
-        <Link href={`/author/${documentContent.data.author}`}>
+        <Link href={`/authors/${documentContent.data.author}`}>
           {documentContent.data.author}
         </Link>{" "}
         under the{" "}
